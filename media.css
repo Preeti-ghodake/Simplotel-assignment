@@ -1,0 +1,97 @@
+@media (max-width:480px){
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 6% ;
+    }
+    .container{
+        height: 70vh;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        padding: 38px;
+    }
+
+    .content{
+        width: 90%;
+        height: 80%;
+        top: 25%;
+        overflow: hidden;
+    }
+    .order-container{
+        height: 230vh;
+        justify-content: space-around;
+    }
+    .order-container>h1{
+        margin: 30px;
+    }
+    .content>h1{
+        font-size: 1.7em;
+    }
+    .content>p{
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+    .card-container{
+        height: 85%;
+    }
+    .btn>button{
+        position: relative;
+        top: -23px;
+        height: 50%;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 6% ;
+    }
+
+    .container{
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        padding: 38px;
+    }
+
+    .content{
+        width: 90%;
+        height: 75%;
+        top: 15%;
+        overflow: hidden;
+    }
+    .order-container{
+        height: 210vh;
+        justify-content: space-around;
+    }
+    .order-container>h1{
+        margin: 30px;
+    }
+    .content>h1{
+        font-size: 2em;
+    }
+    .content>p{
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+    .card-container{
+        height: 90%;
+    }
+    .btn>button{
+        height: 50%;
+    }
+}
